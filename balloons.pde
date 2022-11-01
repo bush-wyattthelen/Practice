@@ -32,11 +32,11 @@ void draw() {
   background(170);
   
   fill (255, 0, 0);
-  circle(myBalloon1.lateral, myBalloon1.elevation, myBalloon1.size);
+  ellipse(myBalloon1.lateral, myBalloon1.elevation, myBalloon1.size, myBalloon1.size);
   fill (0, 255, 0);
-  circle(myBalloon2.lateral, myBalloon2.elevation, myBalloon2.size);
+  ellipse(myBalloon2.lateral, myBalloon2.elevation, myBalloon2.size, myBalloon2.size);
   fill (0, 0, 255);
-  circle(myBalloon3.lateral, myBalloon3.elevation, myBalloon3.size);
+  ellipse(myBalloon3.lateral, myBalloon3.elevation, myBalloon3.size, myBalloon3.size);
   
   myBalloon1.levitate();
   myBalloon1.inflate();
